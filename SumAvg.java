@@ -24,6 +24,10 @@ public class SumAvg {
 		        int sum = num1 + num2 + num3 - large;
 
 		        System.out.println("The sum of the largest number is: " + sum);
+				
+        		double average = (num1 + num2 + num3) / 3;
+
+        		System.out.println("The average of the three numbers is: " + average); 
 
         		
 	}
